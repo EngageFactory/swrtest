@@ -4,10 +4,10 @@ export default defineNuxtConfig({
     nitro: {
         preset: 'netlify-builder',
         routeRules: {
-            '/api/*': { cors: true },
+            '/api/**': { swr: false },
         },
     },
-    // routeRules: {
-    //     '/api/**': { cache: false, swr: false },
-    // },
+    routeRules: {
+        '/api/**': { swr: false },
+    },
 })
