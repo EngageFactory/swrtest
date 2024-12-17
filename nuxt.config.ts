@@ -4,7 +4,7 @@ export default defineNuxtConfig({
     nitro: {
         preset: 'netlify-builder',
         routeRules: {
-            '/api/**': { cors: true },
+            '/api/*': { cors: true },
         },
     },
     // routeRules: {
