@@ -5,7 +5,7 @@ export default defineNuxtConfig({
         preset: 'netlify-edge',
         // routeRules: {
         //     '/api/**': { cache: false, swr: false },
-        },
+        // },
     },
     // routeRules: {
     //     '/api/**': { cache: false, swr: false },
